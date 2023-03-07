@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QiyuanWang_Lab3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kgb-PM-4OR" userLabel="Header">
+                                <rect key="frame" x="0.0" y="44" width="390" height="45"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Wy-v3-vLD">
+                                        <rect key="frame" x="0.0" y="7" width="390" height="31"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0J-Xi-hQZ">
+                                                <rect key="frame" x="0.0" y="0.3333333333333357" width="43.666666666666664" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="trash" catalog="system"/>
+                                                <connections>
+                                                    <action selector="pressClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9W-03-6iP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQQ-Mb-EQW">
+                                                <rect key="frame" x="150.33333333333334" y="0.0" width="89.666666666666657" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Pick Color"/>
+                                                <connections>
+                                                    <action selector="pickColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y1P-Wo-ta6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMN-9l-bZD" userLabel="Save Screen Shot">
+                                                <rect key="frame" x="346.33333333333331" y="0.3333333333333357" width="43.666666666666686" height="30.666666666666668"/>
+                                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrow.down.doc.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="takeScreenshot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="scV-9M-IWa"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="oQQ-Mb-EQW" firstAttribute="centerX" secondItem="1Wy-v3-vLD" secondAttribute="centerX" id="ktm-Mb-d5c"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1Wy-v3-vLD" secondAttribute="trailing" id="Tug-U7-WoP"/>
+                                    <constraint firstItem="1Wy-v3-vLD" firstAttribute="leading" secondItem="Kgb-PM-4OR" secondAttribute="leading" id="Uco-Ez-ga4"/>
+                                    <constraint firstItem="1Wy-v3-vLD" firstAttribute="centerY" secondItem="Kgb-PM-4OR" secondAttribute="centerY" id="d3V-h4-hJX"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rly-3u-12H">
+                                <rect key="frame" x="0.0" y="691" width="390" height="153"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ja7-j9-adv">
+                                        <rect key="frame" x="30" y="5" width="330" height="118"/>
+                                        <subviews>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ezb-zm-hIe">
+                                                <rect key="frame" x="0.0" y="0.0" width="330" height="41"/>
+                                                <segments>
+                                                    <segment title="Draw"/>
+                                                    <segment title="Move"/>
+                                                    <segment title="Delete"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="switchAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="xBP-vN-z4S"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ANC-3x-H2o">
+                                                <rect key="frame" x="0.0" y="48" width="330" height="31"/>
+                                                <subviews>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cs5-5W-hii">
+                                                        <rect key="frame" x="0.0" y="0.0" width="195" height="32"/>
+                                                        <segments>
+                                                            <segment title="" image="circle" catalog="system"/>
+                                                            <segment title="" image="square" catalog="system"/>
+                                                            <segment title="" image="triangle" catalog="system"/>
+                                                        </segments>
+                                                        <connections>
+                                                            <action selector="switchShape:" destination="BYZ-38-t0r" eventType="valueChanged" id="bZ9-ho-kd9"/>
+                                                        </connections>
+                                                    </segmentedControl>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KtU-dd-Qm7">
+                                                        <rect key="frame" x="203" y="0.0" width="127" height="32"/>
+                                                        <segments>
+                                                            <segment title="Solid"/>
+                                                            <segment title="Outline"/>
+                                                        </segments>
+                                                        <connections>
+                                                            <action selector="switchSoildOutline:" destination="BYZ-38-t0r" eventType="valueChanged" id="ZDu-q0-5vM"/>
+                                                        </connections>
+                                                    </segmentedControl>
+                                                </subviews>
+                                            </stackView>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="na2-Gp-7Rc">
+                                                <rect key="frame" x="0.0" y="87" width="330" height="32"/>
+                                                <segments>
+                                                    <segment title="" image="pencil.circle.fill" catalog="system"/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                </segments>
+                                                <color key="selectedSegmentTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="switchColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="0Uf-kE-tr3"/>
+                                                </connections>
+                                            </segmentedControl>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84079071969696972" green="0.8087101459386824" blue="0.83990101076684365" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="Ja7-j9-adv" firstAttribute="top" secondItem="rly-3u-12H" secondAttribute="top" constant="5" id="4XB-6R-j4g"/>
+                                    <constraint firstItem="Ja7-j9-adv" firstAttribute="leading" secondItem="rly-3u-12H" secondAttribute="leading" constant="30" id="6qH-CR-aca"/>
+                                    <constraint firstItem="Ja7-j9-adv" firstAttribute="centerX" secondItem="rly-3u-12H" secondAttribute="centerX" id="EzU-Pg-9qF"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ja7-j9-adv" secondAttribute="bottom" constant="30" id="gG0-po-zIj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I6z-ZB-uOh" customClass="DrawingView" customModule="QiyuanWang_Lab3" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="84" width="390" height="610"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="yT4-wo-blb" appends="YES" id="alm-pf-BNz"/>
+                                    <outletCollection property="gestureRecognizers" destination="JbR-eL-rZh" appends="YES" id="kia-RU-Chu"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Kgb-PM-4OR" secondAttribute="bottom" constant="755" id="3Oy-3v-GHf"/>
+                            <constraint firstItem="Kgb-PM-4OR" firstAttribute="trailing" secondItem="I6z-ZB-uOh" secondAttribute="trailing" id="6M9-i6-KkP"/>
+                            <constraint firstItem="I6z-ZB-uOh" firstAttribute="leading" secondItem="rly-3u-12H" secondAttribute="leading" id="FO2-h0-zdV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="I6z-ZB-uOh" secondAttribute="bottom" constant="116" id="KWb-5e-ZIH"/>
+                            <constraint firstItem="Kgb-PM-4OR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O7X-AU-2s1"/>
+                            <constraint firstItem="Kgb-PM-4OR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PW1-kL-RlU"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="rly-3u-12H" secondAttribute="bottom" constant="-34" id="Rl3-Bg-sHZ"/>
+                            <constraint firstItem="I6z-ZB-uOh" firstAttribute="trailing" secondItem="rly-3u-12H" secondAttribute="trailing" id="aXF-6t-xO4"/>
+                            <constraint firstItem="Kgb-PM-4OR" firstAttribute="leading" secondItem="I6z-ZB-uOh" secondAttribute="leading" id="crE-Th-sXu"/>
+                            <constraint firstItem="I6z-ZB-uOh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="ivt-mi-U6r"/>
+                            <constraint firstItem="rly-3u-12H" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="691" id="lvx-i1-Ovg"/>
+                            <constraint firstItem="Kgb-PM-4OR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oFM-tO-sFF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="actionSelector" destination="ezb-zm-hIe" id="n0C-K4-irE"/>
+                        <outlet property="canvas" destination="I6z-ZB-uOh" id="ftG-Tp-aBj"/>
+                        <outlet property="clearButton" destination="a0J-Xi-hQZ" id="Uxo-UD-J8l"/>
+                        <outlet property="colorSelector" destination="na2-Gp-7Rc" id="wmL-a6-K6T"/>
+                        <outlet property="shapeSelector" destination="cs5-5W-hii" id="np9-c2-Cfi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <rotationGestureRecognizer id="JbR-eL-rZh">
+                    <connections>
+                        <action selector="didRotate:" destination="BYZ-38-t0r" id="xtI-FQ-DW0"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="9Ej-MH-qc5"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <pinchGestureRecognizer id="yT4-wo-blb">
+                    <connections>
+                        <action selector="didPinch:" destination="BYZ-38-t0r" id="jzm-Ns-gBW"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="6ws-mm-tsE"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="18.46153846153846" y="83.175355450236964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.down.doc.fill" catalog="system" width="115" height="128"/>
+        <image name="circle" catalog="system" width="128" height="121"/>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="square" catalog="system" width="128" height="114"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <image name="triangle" catalog="system" width="128" height="112"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
