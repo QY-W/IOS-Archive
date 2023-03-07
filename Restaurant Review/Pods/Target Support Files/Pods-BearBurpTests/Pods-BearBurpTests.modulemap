@@ -1,0 +1,6 @@
+framework module Pods_BearBurpTests {
+  umbrella header "Pods-BearBurpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

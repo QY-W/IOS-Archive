@@ -1,0 +1,1480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+			productName = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0314E26202204303BBF995FD21CE96F9 /* DCMandatoryEmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76E5C11B6DF86D6E7F9E2888B68DC4 /* DCMandatoryEmailTextField.swift */; };
+		0360B6421357D0E4C1B3A91B899218C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		090BB03601632DAA902545277599D6BC /* RadarMapViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78114C64832A43B5996A87CE09656B7F /* RadarMapViewSupport.swift */; };
+		1386ECE93CD9663DF8EB0550A9D62F09 /* DCDashedBorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F9912DD08B2B47F373E508620AFD05 /* DCDashedBorderedView.swift */; };
+		13BADB29139410B4E6D4F60E6AAEDA73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		15D46C549A79064221584C60CDE2BF50 /* DCHairlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0096343AADB3829E56A0DB0A69CFF06 /* DCHairlineView.swift */; };
+		1D7FCD0B60262C214A97E188DE636BA7 /* DCRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20C9C3B9AC6BB17ED09ADF35174F813 /* DCRoundedButton.swift */; };
+		22C4EF2052AD2007E18854ACCFD949FB /* HDAugmentedReality-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 368556A5715B1F0AA8F84D6B45399E75 /* HDAugmentedReality-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A26699F71B70F2FDE2DEFFB6D2B6E81 /* Pods-BearBurp-BearBurpUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD616EFA2A9B3AFCF527AD2F6D657EE /* Pods-BearBurp-BearBurpUITests-dummy.m */; };
+		2DA6D5200A9CA082C46C6735AEAD2892 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229D4A1AFAC5480CEF0D394761A1E010 /* ARViewController.xib */; };
+		2DA7792CAB29A9A512907FB65304169A /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B9B049F14A863B5CD610146DE1F21 /* ARViewController.swift */; };
+		437D78DC8A4A307B74B0D9459C50CD47 /* DCBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F293CE5DD1CE32D08C1570578FB5B4 /* DCBorderedButton.swift */; };
+		47E413F518426B4CBF10D0294CFFFE52 /* Pods-BearBurp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF19D2CA546E0742FB36CF35F5788B0 /* Pods-BearBurp-dummy.m */; };
+		4EA7A826E53A192E864C69AE2F8847A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A66B5CFC7D13E894493B5CF24A7A327 /* DCBorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D2E5A85E356386BDB254DA2910AC5C /* DCBorderedView.swift */; };
+		5B0B0E751C2B052073B5B667F707F393 /* ARPresenterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F82E8D2C9E211ECD7C81AE241939F /* ARPresenterTransform.swift */; };
+		5DBB9F86D1A6FF08D6754E7607561435 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A347369D004D9C8FD219118AA6557195 /* ARConfiguration.swift */; };
+		647D7DD350845FB6C2812952C2C0F19B /* Pods-BearBurpTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DB97C7DCB20428DE1AFDE02B298FFC /* Pods-BearBurpTests-dummy.m */; };
+		6D7C882F5FBF90EE57FAF07B033C7155 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FC7D77752C81975D0AA8D877452253 /* DebugMapViewController.xib */; };
+		72553B1A511ED8EAD77B7A2692538DAC /* UIView+utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074FED81B1722DB573845A945F054B59 /* UIView+utility.swift */; };
+		72FB3B0E804ABCA3C338BBB41A888115 /* DCPickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342E769463F0E9987C12141AC33227D /* DCPickerTextField.swift */; };
+		76937A37C61E39E72B38EDB96BFEB89E /* SegmentedIndicatorRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8504946DEF769A1436634CD837129E /* SegmentedIndicatorRing.swift */; };
+		7856A8EAD1D6DA3527998A3278B6A629 /* Pods-BearBurp-BearBurpUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A67FAFBD1427B2AB4BB520BC919E69DC /* Pods-BearBurp-BearBurpUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8DD2211BC6C6E239C2D8B0101911C0 /* ARAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A437CE74470C4612D5949BE03980A7 /* ARAccessory.swift */; };
+		7EF355EE0F66489FCF155A36343E5740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		82516836080CCE49BFABB95FFAD3F75F /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18652EE8389FBB4AD23AE065754B919 /* ARTrackingManager.swift */; };
+		82D67734A3D14FECE33BA80496E5940E /* DCKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E66D9F5FAEC5192C14FAB869D871EA54 /* DCKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84106B099589CF80A64251BE7DF4E450 /* DCBaseTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F740AA7768F7704E0E3CAAEC4987EBA1 /* DCBaseTextView.swift */; };
+		881F640671C20E141E33BD883FF54184 /* DCBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CFD2D546A7781F6B2A346744CD5BF9 /* DCBaseButton.swift */; };
+		8DC28DE5AB036A5E4BAB802F10AA6708 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A3C18233EAE71B6A40BBA1491E219 /* ARAnnotation.swift */; };
+		9163AE82C4A657F7E7F7F4BE338E0B8B /* ARMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D927CA62C400CA7083ABAEC1E28B2A86 /* ARMath.swift */; };
+		99DAB99FB8E15A85A59B9C15C33119B7 /* DCBaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF963002069D78F025255C8CE54C3AE8 /* DCBaseLabel.swift */; };
+		9ABD80EAFD3915CE21E815476ACE8C4F /* Pods-BearBurp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 507D205E957479D2B3BF87C595184F09 /* Pods-BearBurp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F88586B370B898854B082457EBE8B8 /* PreciseIndicatorRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8FD3FA032BFF9F1C9FBF3CC9780043 /* PreciseIndicatorRing.swift */; };
+		A601D52EF7E1D7F672B26C8581CAE5B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895593052A5396759822BF0545F223FC /* Images.xcassets */; };
+		AC8AC7A63CB69B837E461E61C025C05C /* HDAugmentedReality-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D27E15F04C3AA00248238DA1DFA9C56D /* HDAugmentedReality-dummy.m */; };
+		B1B942DFA0C308AB3C1D97B35351C375 /* DCPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4BAC5EF712C2CC2E1AFB5CE5F8565 /* DCPlaceholderTextView.swift */; };
+		BAF155DA62BE88569801C738F270B2F4 /* DCMandatoryNumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42E202D37E3CBD8F5CF63BFE51C20F /* DCMandatoryNumberTextField.swift */; };
+		C29F87C688ECCA289B4F45E9CCFA8261 /* Pods-BearBurpTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5BDF794BCF2640B67EC1B77B6ED612 /* Pods-BearBurpTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8C53D24FCE125AF9295AB6C275DFBB7 /* DCBorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50001DDA22B9742FBD7345B545305580 /* DCBorderedTextField.swift */; };
+		C8F6E14B13540C38F6D0BE5387DA4C4B /* DCBorderedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B371AE3D4EC3ADE674D6569734DA4A5E /* DCBorderedTextView.swift */; };
+		C93263AD3A1F552E8411D609DEBAC2E4 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CBF4B06B5F83C0F89BF6C75D18FB98 /* TouchView.swift */; };
+		CD37E9774E3E4CCAA2DE4DF49CE70151 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CCBA6F1A7A94851D25A0A5D8CA34D /* DebugMapViewController.swift */; };
+		CDD00A2A24BC7E008BD7229ED6524479 /* DCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 650085ED78CF51017523A53D5A22DFF2 /* DCKit-dummy.m */; };
+		CEAA424891EF4C44F66F9E360EB90DE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D4661D1201AB4D85DC7E01A793CCB593 /* RadarMapView.xib in Sources */ = {isa = PBXBuildFile; fileRef = C9159901B3986BEBDFC8D3F10CD0ED37 /* RadarMapView.xib */; };
+		D8028F87C476E7480F972AAEE7F8BE0A /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3DFA0DD451E22D441B54D0179F983 /* CameraView.swift */; };
+		DDD32AD8D468CDFBAE2F3B972C2EC929 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095BF82CFE140ABD97BE4668F6DF5EC /* ARAnnotationView.swift */; };
+		E3DEB88A23E1033D3185CC3E0C56CD63 /* DCBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6378C294289EC46D9DC2027E43DD3E /* DCBaseView.swift */; };
+		E3EBD6CB9C8E198B70A386BAED3C23A2 /* ARPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6375FB8660709A238136F770919760DB /* ARPresenter.swift */; };
+		EBD7D6D61F6750EA6F10AE958D066BF3 /* DCCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151EB63CD6F9421335457D9A7DCF01F /* DCCircleView.swift */; };
+		F4F649EC63AD2A64567FF80A6B9E69B3 /* DCBaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B2C1DD685B80898E6C2F95439B2651 /* DCBaseTextField.swift */; };
+		F9C40426096F49974A637124333484E0 /* RadarMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F40B25CE17A2F0D9BA84CE5B7FE22 /* RadarMapView.swift */; };
+		FF4B247717504B2096C6E9D45B1C4D3C /* DCMandatoryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E4795CBA284CB7CA59879989176F1 /* DCMandatoryTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		325D49A6EF6EDEAE171AB480D7D64B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		376AA7E2031AE8202F818BB27E2B20EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6852FFF9D4ED5A2916386B839D90AA;
+			remoteInfo = "Pods-BearBurp";
+		};
+		BB7B89B37F118AE733A6A8DBB645945D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB7B74DBC0D96D7F97242370637B8DB;
+			remoteInfo = HDAugmentedReality;
+		};
+		C1BCA3151326A1293E5E6374CFE650C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D3CEE82A742DD14D3CABC7C26B2BDF;
+			remoteInfo = DCKit;
+		};
+		C3B789482B215FF9DEDE17273EDD870C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB7B74DBC0D96D7F97242370637B8DB;
+			remoteInfo = HDAugmentedReality;
+		};
+		D6C52C556A79DD3354D31FEA66EAA497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D3CEE82A742DD14D3CABC7C26B2BDF;
+			remoteInfo = DCKit;
+		};
+		ED3EDF444F82EBD03CC71AAAA9AA530E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020B2675F606C529E6B14A6F02E95A5C /* Pods-BearBurp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BearBurp-acknowledgements.plist"; sourceTree = "<group>"; };
+		074FED81B1722DB573845A945F054B59 /* UIView+utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+utility.swift"; path = "HDAugmentedReality/Classes/External/UIView+utility.swift"; sourceTree = "<group>"; };
+		09B4BAC5EF712C2CC2E1AFB5CE5F8565 /* DCPlaceholderTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCPlaceholderTextView.swift; path = DCKit/UITextViews/DCPlaceholderTextView.swift; sourceTree = "<group>"; };
+		0B9F40B25CE17A2F0D9BA84CE5B7FE22 /* RadarMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarMapView.swift; path = HDAugmentedReality/Classes/Radar/RadarMapView.swift; sourceTree = "<group>"; };
+		0F742DE229F82A556039BA1CDD6D1E61 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		1006DEA5338B21AEA1C853B3F0451A60 /* HDAugmentedReality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDAugmentedReality.release.xcconfig; sourceTree = "<group>"; };
+		10736997166849036E47D935A01DD131 /* Pods-BearBurp-BearBurpUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BearBurp-BearBurpUITests-frameworks.sh"; sourceTree = "<group>"; };
+		11062CDDACF72ADF3CDF7DC5ECF1ADA0 /* Pods-BearBurp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BearBurp-frameworks.sh"; sourceTree = "<group>"; };
+		121CCBA6F1A7A94851D25A0A5D8CA34D /* DebugMapViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugMapViewController.swift; path = HDAugmentedReality/Classes/Debug/DebugMapViewController.swift; sourceTree = "<group>"; };
+		1B4EE38D69CD5643DC5DF16A926D2CB2 /* Pods-BearBurp-BearBurpUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BearBurp-BearBurpUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E42E202D37E3CBD8F5CF63BFE51C20F /* DCMandatoryNumberTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCMandatoryNumberTextField.swift; path = DCKit/UITextFields/DCMandatoryNumberTextField.swift; sourceTree = "<group>"; };
+		20B3F6F989C90D080FBBED0B46700F44 /* Pods-BearBurpTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BearBurpTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2155AA6DE0C18C0930938FDDEDA15721 /* HDAugmentedReality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HDAugmentedReality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229D4A1AFAC5480CEF0D394761A1E010 /* ARViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ARViewController.xib; path = HDAugmentedReality/Resources/ARViewController.xib; sourceTree = "<group>"; };
+		26AB4ABDAC25FBE034FCB51888A591B6 /* Pods-BearBurpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BearBurpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30E70A8D449A3FC236D7641143DFB465 /* Pods-BearBurp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BearBurp.debug.xcconfig"; sourceTree = "<group>"; };
+		352E4795CBA284CB7CA59879989176F1 /* DCMandatoryTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCMandatoryTextField.swift; path = DCKit/UITextFields/DCMandatoryTextField.swift; sourceTree = "<group>"; };
+		368556A5715B1F0AA8F84D6B45399E75 /* HDAugmentedReality-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDAugmentedReality-umbrella.h"; sourceTree = "<group>"; };
+		3D2B9B049F14A863B5CD610146DE1F21 /* ARViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARViewController.swift; path = HDAugmentedReality/Classes/Main/ARViewController.swift; sourceTree = "<group>"; };
+		46E1313BDD261DF576E3ED8B7FD95F3D /* HDAugmentedReality-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDAugmentedReality-prefix.pch"; sourceTree = "<group>"; };
+		48DB97C7DCB20428DE1AFDE02B298FFC /* Pods-BearBurpTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BearBurpTests-dummy.m"; sourceTree = "<group>"; };
+		4B0CC5ACA211A67CB3B7883D7D4447DA /* DCKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCKit.modulemap; sourceTree = "<group>"; };
+		50001DDA22B9742FBD7345B545305580 /* DCBorderedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCBorderedTextField.swift; path = DCKit/UITextFields/DCBorderedTextField.swift; sourceTree = "<group>"; };
+		507D205E957479D2B3BF87C595184F09 /* Pods-BearBurp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BearBurp-umbrella.h"; sourceTree = "<group>"; };
+		5342E769463F0E9987C12141AC33227D /* DCPickerTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCPickerTextField.swift; path = DCKit/UITextFields/DCPickerTextField.swift; sourceTree = "<group>"; };
+		53A5FB25C92C37C8093E7E5CB7228A9C /* Pods-BearBurpTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BearBurpTests"; path = Pods_BearBurpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D2BB86B110C91B0A8DB86C220D267A /* Pods-BearBurp-BearBurpUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BearBurp-BearBurpUITests"; path = Pods_BearBurp_BearBurpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D2E5A85E356386BDB254DA2910AC5C /* DCBorderedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCBorderedView.swift; path = DCKit/UIViews/DCBorderedView.swift; sourceTree = "<group>"; };
+		6375FB8660709A238136F770919760DB /* ARPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARPresenter.swift; path = HDAugmentedReality/Classes/Main/Presenter/ARPresenter.swift; sourceTree = "<group>"; };
+		6459F685C10B16789D4447D329A36CCF /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		6481C47BE20731A561E86EEF63287EC5 /* Pods-BearBurp-BearBurpUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BearBurp-BearBurpUITests.modulemap"; sourceTree = "<group>"; };
+		650085ED78CF51017523A53D5A22DFF2 /* DCKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCKit-dummy.m"; sourceTree = "<group>"; };
+		65CBF4B06B5F83C0F89BF6C75D18FB98 /* TouchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchView.swift; path = HDAugmentedReality/Classes/External/TouchView.swift; sourceTree = "<group>"; };
+		672CAEAD657DF70178B707C896FD00AE /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		69F9912DD08B2B47F373E508620AFD05 /* DCDashedBorderedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCDashedBorderedView.swift; path = DCKit/UIViews/DCDashedBorderedView.swift; sourceTree = "<group>"; };
+		6A005C8CAAE839ADC03FCB75CDB3148C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		6B5C82A861BD5EED3C072551B42BC09F /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		6D6378C294289EC46D9DC2027E43DD3E /* DCBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCBaseView.swift; path = DCKit/UIViews/DCBaseView.swift; sourceTree = "<group>"; };
+		6DDC82EB3AA6E4A41C622FC2AC42A01A /* Pods-BearBurp-BearBurpUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BearBurp-BearBurpUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7074476B1BDD12E3F6867BF18355CF17 /* Pods-BearBurp-BearBurpUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BearBurp-BearBurpUITests-resources.sh"; sourceTree = "<group>"; };
+		710F68CEFA5DF7021C486C638C36798A /* Pods-BearBurp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BearBurp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78114C64832A43B5996A87CE09656B7F /* RadarMapViewSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarMapViewSupport.swift; path = HDAugmentedReality/Classes/Radar/RadarMapViewSupport.swift; sourceTree = "<group>"; };
+		784FAC9A658BFACF3F9FF2F1172ADB29 /* Pods-BearBurp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BearBurp"; path = Pods_BearBurp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD616EFA2A9B3AFCF527AD2F6D657EE /* Pods-BearBurp-BearBurpUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BearBurp-BearBurpUITests-dummy.m"; sourceTree = "<group>"; };
+		7F488B437A68DB5C9D38AD876BD6A06E /* HDAugmentedReality-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDAugmentedReality-Info.plist"; sourceTree = "<group>"; };
+		844A3C18233EAE71B6A40BBA1491E219 /* ARAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARAnnotation.swift; path = HDAugmentedReality/Classes/Main/Annotations/ARAnnotation.swift; sourceTree = "<group>"; };
+		8550DCF5D249980C4230BD00910CF996 /* Pods-BearBurpTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BearBurpTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		86A3DFA0DD451E22D441B54D0179F983 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = HDAugmentedReality/Classes/External/CameraView.swift; sourceTree = "<group>"; };
+		88A437CE74470C4612D5949BE03980A7 /* ARAccessory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARAccessory.swift; path = HDAugmentedReality/Classes/Main/ARAccessory.swift; sourceTree = "<group>"; };
+		88B2C1DD685B80898E6C2F95439B2651 /* DCBaseTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCBaseTextField.swift; path = DCKit/UITextFields/DCBaseTextField.swift; sourceTree = "<group>"; };
+		895593052A5396759822BF0545F223FC /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HDAugmentedReality/Resources/Images.xcassets; sourceTree = "<group>"; };
+		8B568B98957BC0262DD8FDA6FA6C948C /* Pods-BearBurpTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BearBurpTests-Info.plist"; sourceTree = "<group>"; };
+		8B76E5C11B6DF86D6E7F9E2888B68DC4 /* DCMandatoryEmailTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCMandatoryEmailTextField.swift; path = DCKit/UITextFields/DCMandatoryEmailTextField.swift; sourceTree = "<group>"; };
+		8B8FD3FA032BFF9F1C9FBF3CC9780043 /* PreciseIndicatorRing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreciseIndicatorRing.swift; path = HDAugmentedReality/Classes/Radar/PreciseIndicatorRing.swift; sourceTree = "<group>"; };
+		9095BF82CFE140ABD97BE4668F6DF5EC /* ARAnnotationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARAnnotationView.swift; path = HDAugmentedReality/Classes/Main/Annotations/ARAnnotationView.swift; sourceTree = "<group>"; };
+		94B503D2B08766D3A9DA084C782A54F8 /* Pods-BearBurp-BearBurpUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BearBurp-BearBurpUITests-Info.plist"; sourceTree = "<group>"; };
+		95A9EE50BB782A8ED07F3B05F7D129CE /* Pods-BearBurp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BearBurp-resources.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5BDF794BCF2640B67EC1B77B6ED612 /* Pods-BearBurpTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BearBurpTests-umbrella.h"; sourceTree = "<group>"; };
+		A18652EE8389FBB4AD23AE065754B919 /* ARTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARTrackingManager.swift; path = HDAugmentedReality/Classes/Main/Tracking/ARTrackingManager.swift; sourceTree = "<group>"; };
+		A347369D004D9C8FD219118AA6557195 /* ARConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARConfiguration.swift; path = HDAugmentedReality/Classes/Main/ARConfiguration.swift; sourceTree = "<group>"; };
+		A67FAFBD1427B2AB4BB520BC919E69DC /* Pods-BearBurp-BearBurpUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BearBurp-BearBurpUITests-umbrella.h"; sourceTree = "<group>"; };
+		B0B28268486A477BC211946FB6853C0B /* HDAugmentedReality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDAugmentedReality.debug.xcconfig; sourceTree = "<group>"; };
+		B1E400031FD0A262EC499249C18B1FA6 /* DCKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCKit-prefix.pch"; sourceTree = "<group>"; };
+		B371AE3D4EC3ADE674D6569734DA4A5E /* DCBorderedTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCBorderedTextView.swift; path = DCKit/UITextViews/DCBorderedTextView.swift; sourceTree = "<group>"; };
+		B768958D274706D02DED8F7033C8B5C4 /* DCKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DCKit-Info.plist"; sourceTree = "<group>"; };
+		B9248672818A84ECB01124AC64CC82F8 /* Pods-BearBurpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BearBurpTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9FC7D77752C81975D0AA8D877452253 /* DebugMapViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DebugMapViewController.xib; path = HDAugmentedReality/Resources/DebugMapViewController.xib; sourceTree = "<group>"; };
+		C2570E14028E5FF17034E6B3263C02EE /* DCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCKit.debug.xcconfig; sourceTree = "<group>"; };
+		C34C70E09A077E958D9ABA4718B99CED /* DCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCKit.release.xcconfig; sourceTree = "<group>"; };
+		C5987F40A383B0A2A693D62AC29DDE65 /* Pods-BearBurp-BearBurpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BearBurp-BearBurpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C72C74B9B4F271AA57F1628A9FDC0AD9 /* Pods-BearBurp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BearBurp-Info.plist"; sourceTree = "<group>"; };
+		C9159901B3986BEBDFC8D3F10CD0ED37 /* RadarMapView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RadarMapView.xib; path = HDAugmentedReality/Classes/Radar/RadarMapView.xib; sourceTree = "<group>"; };
+		CD8504946DEF769A1436634CD837129E /* SegmentedIndicatorRing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedIndicatorRing.swift; path = HDAugmentedReality/Classes/Radar/SegmentedIndicatorRing.swift; sourceTree = "<group>"; };
+		CDF19D2CA546E0742FB36CF35F5788B0 /* Pods-BearBurp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BearBurp-dummy.m"; sourceTree = "<group>"; };
+		CE713717B7E8160655823861221FDE44 /* Pods-BearBurpTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BearBurpTests.modulemap"; sourceTree = "<group>"; };
+		D20C9C3B9AC6BB17ED09ADF35174F813 /* DCRoundedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCRoundedButton.swift; path = DCKit/UIButtons/DCRoundedButton.swift; sourceTree = "<group>"; };
+		D27E15F04C3AA00248238DA1DFA9C56D /* HDAugmentedReality-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDAugmentedReality-dummy.m"; sourceTree = "<group>"; };
+		D68F82E8D2C9E211ECD7C81AE241939F /* ARPresenterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARPresenterTransform.swift; path = HDAugmentedReality/Classes/Main/Presenter/ARPresenterTransform.swift; sourceTree = "<group>"; };
+		D81E1EA4F9D5172B8FBA438B4A3E5596 /* DCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D927CA62C400CA7083ABAEC1E28B2A86 /* ARMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARMath.swift; path = HDAugmentedReality/Classes/Main/Utility/ARMath.swift; sourceTree = "<group>"; };
+		DB6CDC39219F654B0E9037322B23F428 /* Pods-BearBurp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BearBurp.modulemap"; sourceTree = "<group>"; };
+		DF90B50D792CFFBBF53F58A101015AD0 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		DF963002069D78F025255C8CE54C3AE8 /* DCBaseLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCBaseLabel.swift; path = DCKit/UILabels/DCBaseLabel.swift; sourceTree = "<group>"; };
+		E151EB63CD6F9421335457D9A7DCF01F /* DCCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCircleView.swift; path = DCKit/UIViews/DCCircleView.swift; sourceTree = "<group>"; };
+		E1CFD2D546A7781F6B2A346744CD5BF9 /* DCBaseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCBaseButton.swift; path = DCKit/UIButtons/DCBaseButton.swift; sourceTree = "<group>"; };
+		E4135B4B65E21406E0B2ED30AFD43667 /* Pods-BearBurp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BearBurp.release.xcconfig"; sourceTree = "<group>"; };
+		E66D9F5FAEC5192C14FAB869D871EA54 /* DCKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCKit-umbrella.h"; sourceTree = "<group>"; };
+		E7F293CE5DD1CE32D08C1570578FB5B4 /* DCBorderedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCBorderedButton.swift; path = DCKit/UIButtons/DCBorderedButton.swift; sourceTree = "<group>"; };
+		EB1656B9DF540D5375CA50FF11C3D131 /* HDAugmentedReality.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDAugmentedReality.modulemap; sourceTree = "<group>"; };
+		F0096343AADB3829E56A0DB0A69CFF06 /* DCHairlineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCHairlineView.swift; path = DCKit/UIViews/DCHairlineView.swift; sourceTree = "<group>"; };
+		F740AA7768F7704E0E3CAAEC4987EBA1 /* DCBaseTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCBaseTextView.swift; path = DCKit/UITextViews/DCBaseTextView.swift; sourceTree = "<group>"; };
+		F794C5EFF05B83301B799103AF0E804E /* Pods-BearBurp-BearBurpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BearBurp-BearBurpUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B05AC7D04FC3796673BC3F3FA1AF1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAA424891EF4C44F66F9E360EB90DE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF17F8D9F30B00129607377511148794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BADB29139410B4E6D4F60E6AAEDA73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE390A15F9E5E6C93E96974C9DAC71A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0360B6421357D0E4C1B3A91B899218C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1140C815AE6E3044C35AA37A93408FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA7A826E53A192E864C69AE2F8847A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2225F13D006B48C6C06A1D1F0D5B3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF355EE0F66489FCF155A36343E5740 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1648529FC446E1241D2D4F3EEA28074D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A005C8CAAE839ADC03FCB75CDB3148C /* GoogleMaps.framework */,
+				6B5C82A861BD5EED3C072551B42BC09F /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1817E31BC00383231D7B0DA5AB2ECA3D /* Pods-BearBurpTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE713717B7E8160655823861221FDE44 /* Pods-BearBurpTests.modulemap */,
+				20B3F6F989C90D080FBBED0B46700F44 /* Pods-BearBurpTests-acknowledgements.markdown */,
+				8550DCF5D249980C4230BD00910CF996 /* Pods-BearBurpTests-acknowledgements.plist */,
+				48DB97C7DCB20428DE1AFDE02B298FFC /* Pods-BearBurpTests-dummy.m */,
+				8B568B98957BC0262DD8FDA6FA6C948C /* Pods-BearBurpTests-Info.plist */,
+				9E5BDF794BCF2640B67EC1B77B6ED612 /* Pods-BearBurpTests-umbrella.h */,
+				26AB4ABDAC25FBE034FCB51888A591B6 /* Pods-BearBurpTests.debug.xcconfig */,
+				B9248672818A84ECB01124AC64CC82F8 /* Pods-BearBurpTests.release.xcconfig */,
+			);
+			name = "Pods-BearBurpTests";
+			path = "Target Support Files/Pods-BearBurpTests";
+			sourceTree = "<group>";
+		};
+		253A09616A24A595394F374786C25B26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				672CAEAD657DF70178B707C896FD00AE /* GoogleMaps.debug.xcconfig */,
+				0F742DE229F82A556039BA1CDD6D1E61 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		2A043BD853DA297D76B612CF69334DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81E1EA4F9D5172B8FBA438B4A3E5596 /* DCKit.framework */,
+				2155AA6DE0C18C0930938FDDEDA15721 /* HDAugmentedReality.framework */,
+				784FAC9A658BFACF3F9FF2F1172ADB29 /* Pods-BearBurp */,
+				61D2BB86B110C91B0A8DB86C220D267A /* Pods-BearBurp-BearBurpUITests */,
+				53A5FB25C92C37C8093E7E5CB7228A9C /* Pods-BearBurpTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3313201CF214D91D9E512F5E7658F7C5 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				435FDCAE93C40B8F26EF56D6E2CBCDE8 /* Base */,
+				6D156B4461B96A1654AD7C8DB58EC4D3 /* Maps */,
+				253A09616A24A595394F374786C25B26 /* Support Files */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3CD92E51F50B9E953B0A510CD292D9A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B0CC5ACA211A67CB3B7883D7D4447DA /* DCKit.modulemap */,
+				650085ED78CF51017523A53D5A22DFF2 /* DCKit-dummy.m */,
+				B768958D274706D02DED8F7033C8B5C4 /* DCKit-Info.plist */,
+				B1E400031FD0A262EC499249C18B1FA6 /* DCKit-prefix.pch */,
+				E66D9F5FAEC5192C14FAB869D871EA54 /* DCKit-umbrella.h */,
+				C2570E14028E5FF17034E6B3263C02EE /* DCKit.debug.xcconfig */,
+				C34C70E09A077E958D9ABA4718B99CED /* DCKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DCKit";
+			sourceTree = "<group>";
+		};
+		435FDCAE93C40B8F26EF56D6E2CBCDE8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7FC6F8D36E9E23782A3C2F964DD64D09 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		47C8F97B3D24A365C5C0136DE7F60A72 /* Pods-BearBurp-BearBurpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6481C47BE20731A561E86EEF63287EC5 /* Pods-BearBurp-BearBurpUITests.modulemap */,
+				1B4EE38D69CD5643DC5DF16A926D2CB2 /* Pods-BearBurp-BearBurpUITests-acknowledgements.markdown */,
+				6DDC82EB3AA6E4A41C622FC2AC42A01A /* Pods-BearBurp-BearBurpUITests-acknowledgements.plist */,
+				7AD616EFA2A9B3AFCF527AD2F6D657EE /* Pods-BearBurp-BearBurpUITests-dummy.m */,
+				10736997166849036E47D935A01DD131 /* Pods-BearBurp-BearBurpUITests-frameworks.sh */,
+				94B503D2B08766D3A9DA084C782A54F8 /* Pods-BearBurp-BearBurpUITests-Info.plist */,
+				7074476B1BDD12E3F6867BF18355CF17 /* Pods-BearBurp-BearBurpUITests-resources.sh */,
+				A67FAFBD1427B2AB4BB520BC919E69DC /* Pods-BearBurp-BearBurpUITests-umbrella.h */,
+				C5987F40A383B0A2A693D62AC29DDE65 /* Pods-BearBurp-BearBurpUITests.debug.xcconfig */,
+				F794C5EFF05B83301B799103AF0E804E /* Pods-BearBurp-BearBurpUITests.release.xcconfig */,
+			);
+			name = "Pods-BearBurp-BearBurpUITests";
+			path = "Target Support Files/Pods-BearBurp-BearBurpUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6449E41E92AE8E9D319387EB0E4320DE /* HDAugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				88A437CE74470C4612D5949BE03980A7 /* ARAccessory.swift */,
+				844A3C18233EAE71B6A40BBA1491E219 /* ARAnnotation.swift */,
+				9095BF82CFE140ABD97BE4668F6DF5EC /* ARAnnotationView.swift */,
+				A347369D004D9C8FD219118AA6557195 /* ARConfiguration.swift */,
+				D927CA62C400CA7083ABAEC1E28B2A86 /* ARMath.swift */,
+				6375FB8660709A238136F770919760DB /* ARPresenter.swift */,
+				D68F82E8D2C9E211ECD7C81AE241939F /* ARPresenterTransform.swift */,
+				A18652EE8389FBB4AD23AE065754B919 /* ARTrackingManager.swift */,
+				3D2B9B049F14A863B5CD610146DE1F21 /* ARViewController.swift */,
+				86A3DFA0DD451E22D441B54D0179F983 /* CameraView.swift */,
+				121CCBA6F1A7A94851D25A0A5D8CA34D /* DebugMapViewController.swift */,
+				8B8FD3FA032BFF9F1C9FBF3CC9780043 /* PreciseIndicatorRing.swift */,
+				0B9F40B25CE17A2F0D9BA84CE5B7FE22 /* RadarMapView.swift */,
+				C9159901B3986BEBDFC8D3F10CD0ED37 /* RadarMapView.xib */,
+				78114C64832A43B5996A87CE09656B7F /* RadarMapViewSupport.swift */,
+				CD8504946DEF769A1436634CD837129E /* SegmentedIndicatorRing.swift */,
+				65CBF4B06B5F83C0F89BF6C75D18FB98 /* TouchView.swift */,
+				074FED81B1722DB573845A945F054B59 /* UIView+utility.swift */,
+				B855098856A67AEBC0264FB55F8E3B63 /* Resources */,
+				710F0FCF416E41685C6C8E05E65AE4D5 /* Support Files */,
+			);
+			path = HDAugmentedReality;
+			sourceTree = "<group>";
+		};
+		6D156B4461B96A1654AD7C8DB58EC4D3 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				1648529FC446E1241D2D4F3EEA28074D /* Frameworks */,
+				E04ABC429BEA0FB427BF7B4169165110 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		710F0FCF416E41685C6C8E05E65AE4D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB1656B9DF540D5375CA50FF11C3D131 /* HDAugmentedReality.modulemap */,
+				D27E15F04C3AA00248238DA1DFA9C56D /* HDAugmentedReality-dummy.m */,
+				7F488B437A68DB5C9D38AD876BD6A06E /* HDAugmentedReality-Info.plist */,
+				46E1313BDD261DF576E3ED8B7FD95F3D /* HDAugmentedReality-prefix.pch */,
+				368556A5715B1F0AA8F84D6B45399E75 /* HDAugmentedReality-umbrella.h */,
+				B0B28268486A477BC211946FB6853C0B /* HDAugmentedReality.debug.xcconfig */,
+				1006DEA5338B21AEA1C853B3F0451A60 /* HDAugmentedReality.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HDAugmentedReality";
+			sourceTree = "<group>";
+		};
+		7FC6F8D36E9E23782A3C2F964DD64D09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6459F685C10B16789D4447D329A36CCF /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88CD74B4FB6F1399D6C6CCACBE5254AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE4C11961E4070325096B58EA3AB4B /* DCKit */,
+				3313201CF214D91D9E512F5E7658F7C5 /* GoogleMaps */,
+				6449E41E92AE8E9D319387EB0E4320DE /* HDAugmentedReality */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F206286F951B4FB9BB2F858C5E185C2 /* Pods-BearBurp */ = {
+			isa = PBXGroup;
+			children = (
+				DB6CDC39219F654B0E9037322B23F428 /* Pods-BearBurp.modulemap */,
+				710F68CEFA5DF7021C486C638C36798A /* Pods-BearBurp-acknowledgements.markdown */,
+				020B2675F606C529E6B14A6F02E95A5C /* Pods-BearBurp-acknowledgements.plist */,
+				CDF19D2CA546E0742FB36CF35F5788B0 /* Pods-BearBurp-dummy.m */,
+				11062CDDACF72ADF3CDF7DC5ECF1ADA0 /* Pods-BearBurp-frameworks.sh */,
+				C72C74B9B4F271AA57F1628A9FDC0AD9 /* Pods-BearBurp-Info.plist */,
+				95A9EE50BB782A8ED07F3B05F7D129CE /* Pods-BearBurp-resources.sh */,
+				507D205E957479D2B3BF87C595184F09 /* Pods-BearBurp-umbrella.h */,
+				30E70A8D449A3FC236D7641143DFB465 /* Pods-BearBurp.debug.xcconfig */,
+				E4135B4B65E21406E0B2ED30AFD43667 /* Pods-BearBurp.release.xcconfig */,
+			);
+			name = "Pods-BearBurp";
+			path = "Target Support Files/Pods-BearBurp";
+			sourceTree = "<group>";
+		};
+		B855098856A67AEBC0264FB55F8E3B63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				229D4A1AFAC5480CEF0D394761A1E010 /* ARViewController.xib */,
+				B9FC7D77752C81975D0AA8D877452253 /* DebugMapViewController.xib */,
+				895593052A5396759822BF0545F223FC /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BCCE4C11961E4070325096B58EA3AB4B /* DCKit */ = {
+			isa = PBXGroup;
+			children = (
+				E1CFD2D546A7781F6B2A346744CD5BF9 /* DCBaseButton.swift */,
+				DF963002069D78F025255C8CE54C3AE8 /* DCBaseLabel.swift */,
+				88B2C1DD685B80898E6C2F95439B2651 /* DCBaseTextField.swift */,
+				F740AA7768F7704E0E3CAAEC4987EBA1 /* DCBaseTextView.swift */,
+				6D6378C294289EC46D9DC2027E43DD3E /* DCBaseView.swift */,
+				E7F293CE5DD1CE32D08C1570578FB5B4 /* DCBorderedButton.swift */,
+				50001DDA22B9742FBD7345B545305580 /* DCBorderedTextField.swift */,
+				B371AE3D4EC3ADE674D6569734DA4A5E /* DCBorderedTextView.swift */,
+				62D2E5A85E356386BDB254DA2910AC5C /* DCBorderedView.swift */,
+				E151EB63CD6F9421335457D9A7DCF01F /* DCCircleView.swift */,
+				69F9912DD08B2B47F373E508620AFD05 /* DCDashedBorderedView.swift */,
+				F0096343AADB3829E56A0DB0A69CFF06 /* DCHairlineView.swift */,
+				8B76E5C11B6DF86D6E7F9E2888B68DC4 /* DCMandatoryEmailTextField.swift */,
+				1E42E202D37E3CBD8F5CF63BFE51C20F /* DCMandatoryNumberTextField.swift */,
+				352E4795CBA284CB7CA59879989176F1 /* DCMandatoryTextField.swift */,
+				5342E769463F0E9987C12141AC33227D /* DCPickerTextField.swift */,
+				09B4BAC5EF712C2CC2E1AFB5CE5F8565 /* DCPlaceholderTextView.swift */,
+				D20C9C3B9AC6BB17ED09ADF35174F813 /* DCRoundedButton.swift */,
+				3CD92E51F50B9E953B0A510CD292D9A7 /* Support Files */,
+			);
+			path = DCKit;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				88CD74B4FB6F1399D6C6CCACBE5254AF /* Pods */,
+				2A043BD853DA297D76B612CF69334DA2 /* Products */,
+				EDBF7FF0E1C09E24685ECC732014269E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E04ABC429BEA0FB427BF7B4169165110 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF90B50D792CFFBBF53F58A101015AD0 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EDBF7FF0E1C09E24685ECC732014269E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F206286F951B4FB9BB2F858C5E185C2 /* Pods-BearBurp */,
+				47C8F97B3D24A365C5C0136DE7F60A72 /* Pods-BearBurp-BearBurpUITests */,
+				1817E31BC00383231D7B0DA5AB2ECA3D /* Pods-BearBurpTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0120FCB27D6D1ED50BC6A1ACCB35D362 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29F87C688ECCA289B4F45E9CCFA8261 /* Pods-BearBurpTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DA92C028F128C48B083F9786A8B80E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D67734A3D14FECE33BA80496E5940E /* DCKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EC630656370990E2CF80C4E37D6CD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABD80EAFD3915CE21E815476ACE8C4F /* Pods-BearBurp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B0BE110D0808C2CDB2929C76BDD659 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7856A8EAD1D6DA3527998A3278B6A629 /* Pods-BearBurp-BearBurpUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3046017A97D49C5B07E94053EED7FAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C4EF2052AD2007E18854ACCFD949FB /* HDAugmentedReality-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FB7B74DBC0D96D7F97242370637B8DB /* HDAugmentedReality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4744937D6FA8C254B2D2739DCA2DBE /* Build configuration list for PBXNativeTarget "HDAugmentedReality" */;
+			buildPhases = (
+				A3046017A97D49C5B07E94053EED7FAB /* Headers */,
+				BDC8CD039082144615C3F2B5841A8895 /* Sources */,
+				F2225F13D006B48C6C06A1D1F0D5B3B1 /* Frameworks */,
+				AADF22FAE72FE433BAD0352425252122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDAugmentedReality;
+			productName = HDAugmentedReality;
+			productReference = 2155AA6DE0C18C0930938FDDEDA15721 /* HDAugmentedReality.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85D3CEE82A742DD14D3CABC7C26B2BDF /* DCKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6676488DB67D37B8228C4EDD12A1B21 /* Build configuration list for PBXNativeTarget "DCKit" */;
+			buildPhases = (
+				68DA92C028F128C48B083F9786A8B80E /* Headers */,
+				B261E5524C67F77211DC881CC4FCB27E /* Sources */,
+				DE390A15F9E5E6C93E96974C9DAC71A8 /* Frameworks */,
+				1ED4F395BB40238E0013D508C6C32247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCKit;
+			productName = DCKit;
+			productReference = D81E1EA4F9D5172B8FBA438B4A3E5596 /* DCKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F6852FFF9D4ED5A2916386B839D90AA /* Pods-BearBurp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F1E61AC3042C4C5AE41366515A14AD /* Build configuration list for PBXNativeTarget "Pods-BearBurp" */;
+			buildPhases = (
+				A0EC630656370990E2CF80C4E37D6CD0 /* Headers */,
+				4F166CC2070C6F9DA68F58DE5B76D06E /* Sources */,
+				2B05AC7D04FC3796673BC3F3FA1AF1CB /* Frameworks */,
+				1FC50D687A076C1106FFA2A0C1F13030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D731DA1841992B19A32EDB587D80DACD /* PBXTargetDependency */,
+				5306E6BF4E9AF3A49ABE383926ACF392 /* PBXTargetDependency */,
+				4A9D314770707A0C16DF1FDD3AD15C4D /* PBXTargetDependency */,
+			);
+			name = "Pods-BearBurp";
+			productName = Pods_BearBurp;
+			productReference = 784FAC9A658BFACF3F9FF2F1172ADB29 /* Pods-BearBurp */;
+			productType = "com.apple.product-type.framework";
+		};
+		DAE1E0E26EE48D5E33588C43A5E150AE /* Pods-BearBurpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FE8B664662A1292F844FEB62DDC486 /* Build configuration list for PBXNativeTarget "Pods-BearBurpTests" */;
+			buildPhases = (
+				0120FCB27D6D1ED50BC6A1ACCB35D362 /* Headers */,
+				3BB5F2B734CE93FA4280C362CD526313 /* Sources */,
+				BF17F8D9F30B00129607377511148794 /* Frameworks */,
+				6EF741CC289CB60784836BA067FF3E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECA8CBF442E7091EDD74A5C43354D89 /* PBXTargetDependency */,
+			);
+			name = "Pods-BearBurpTests";
+			productName = Pods_BearBurpTests;
+			productReference = 53A5FB25C92C37C8093E7E5CB7228A9C /* Pods-BearBurpTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA724BB5EDF649D810B10CA8F802F601 /* Pods-BearBurp-BearBurpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD3C23294EEABD46C9E87BBF136F209 /* Build configuration list for PBXNativeTarget "Pods-BearBurp-BearBurpUITests" */;
+			buildPhases = (
+				A2B0BE110D0808C2CDB2929C76BDD659 /* Headers */,
+				0B113E846C351FE0931DFF590E6B2CBB /* Sources */,
+				E1140C815AE6E3044C35AA37A93408FE /* Frameworks */,
+				B5792FE72507EADFAB5A5512C2884FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EBDFA398F6F5CD3923580E788C260CA /* PBXTargetDependency */,
+				26773FA70A9C50D1C5C5A195D17AF2E8 /* PBXTargetDependency */,
+				B6F9BF29559E5DFD2E1A7C36B0928463 /* PBXTargetDependency */,
+			);
+			name = "Pods-BearBurp-BearBurpUITests";
+			productName = Pods_BearBurp_BearBurpUITests;
+			productReference = 61D2BB86B110C91B0A8DB86C220D267A /* Pods-BearBurp-BearBurpUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1400;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2A043BD853DA297D76B612CF69334DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85D3CEE82A742DD14D3CABC7C26B2BDF /* DCKit */,
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				3FB7B74DBC0D96D7F97242370637B8DB /* HDAugmentedReality */,
+				8F6852FFF9D4ED5A2916386B839D90AA /* Pods-BearBurp */,
+				EA724BB5EDF649D810B10CA8F802F601 /* Pods-BearBurp-BearBurpUITests */,
+				DAE1E0E26EE48D5E33588C43A5E150AE /* Pods-BearBurpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED4F395BB40238E0013D508C6C32247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC50D687A076C1106FFA2A0C1F13030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF741CC289CB60784836BA067FF3E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADF22FAE72FE433BAD0352425252122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA6D5200A9CA082C46C6735AEAD2892 /* ARViewController.xib in Resources */,
+				6D7C882F5FBF90EE57FAF07B033C7155 /* DebugMapViewController.xib in Resources */,
+				A601D52EF7E1D7F672B26C8581CAE5B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5792FE72507EADFAB5A5512C2884FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B113E846C351FE0931DFF590E6B2CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A26699F71B70F2FDE2DEFFB6D2B6E81 /* Pods-BearBurp-BearBurpUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB5F2B734CE93FA4280C362CD526313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647D7DD350845FB6C2812952C2C0F19B /* Pods-BearBurpTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F166CC2070C6F9DA68F58DE5B76D06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E413F518426B4CBF10D0294CFFFE52 /* Pods-BearBurp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B261E5524C67F77211DC881CC4FCB27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881F640671C20E141E33BD883FF54184 /* DCBaseButton.swift in Sources */,
+				99DAB99FB8E15A85A59B9C15C33119B7 /* DCBaseLabel.swift in Sources */,
+				F4F649EC63AD2A64567FF80A6B9E69B3 /* DCBaseTextField.swift in Sources */,
+				84106B099589CF80A64251BE7DF4E450 /* DCBaseTextView.swift in Sources */,
+				E3DEB88A23E1033D3185CC3E0C56CD63 /* DCBaseView.swift in Sources */,
+				437D78DC8A4A307B74B0D9459C50CD47 /* DCBorderedButton.swift in Sources */,
+				C8C53D24FCE125AF9295AB6C275DFBB7 /* DCBorderedTextField.swift in Sources */,
+				C8F6E14B13540C38F6D0BE5387DA4C4B /* DCBorderedTextView.swift in Sources */,
+				5A66B5CFC7D13E894493B5CF24A7A327 /* DCBorderedView.swift in Sources */,
+				EBD7D6D61F6750EA6F10AE958D066BF3 /* DCCircleView.swift in Sources */,
+				1386ECE93CD9663DF8EB0550A9D62F09 /* DCDashedBorderedView.swift in Sources */,
+				15D46C549A79064221584C60CDE2BF50 /* DCHairlineView.swift in Sources */,
+				CDD00A2A24BC7E008BD7229ED6524479 /* DCKit-dummy.m in Sources */,
+				0314E26202204303BBF995FD21CE96F9 /* DCMandatoryEmailTextField.swift in Sources */,
+				BAF155DA62BE88569801C738F270B2F4 /* DCMandatoryNumberTextField.swift in Sources */,
+				FF4B247717504B2096C6E9D45B1C4D3C /* DCMandatoryTextField.swift in Sources */,
+				72FB3B0E804ABCA3C338BBB41A888115 /* DCPickerTextField.swift in Sources */,
+				B1B942DFA0C308AB3C1D97B35351C375 /* DCPlaceholderTextView.swift in Sources */,
+				1D7FCD0B60262C214A97E188DE636BA7 /* DCRoundedButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC8CD039082144615C3F2B5841A8895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8DD2211BC6C6E239C2D8B0101911C0 /* ARAccessory.swift in Sources */,
+				8DC28DE5AB036A5E4BAB802F10AA6708 /* ARAnnotation.swift in Sources */,
+				DDD32AD8D468CDFBAE2F3B972C2EC929 /* ARAnnotationView.swift in Sources */,
+				5DBB9F86D1A6FF08D6754E7607561435 /* ARConfiguration.swift in Sources */,
+				9163AE82C4A657F7E7F7F4BE338E0B8B /* ARMath.swift in Sources */,
+				E3EBD6CB9C8E198B70A386BAED3C23A2 /* ARPresenter.swift in Sources */,
+				5B0B0E751C2B052073B5B667F707F393 /* ARPresenterTransform.swift in Sources */,
+				82516836080CCE49BFABB95FFAD3F75F /* ARTrackingManager.swift in Sources */,
+				2DA7792CAB29A9A512907FB65304169A /* ARViewController.swift in Sources */,
+				D8028F87C476E7480F972AAEE7F8BE0A /* CameraView.swift in Sources */,
+				CD37E9774E3E4CCAA2DE4DF49CE70151 /* DebugMapViewController.swift in Sources */,
+				AC8AC7A63CB69B837E461E61C025C05C /* HDAugmentedReality-dummy.m in Sources */,
+				A2F88586B370B898854B082457EBE8B8 /* PreciseIndicatorRing.swift in Sources */,
+				F9C40426096F49974A637124333484E0 /* RadarMapView.swift in Sources */,
+				D4661D1201AB4D85DC7E01A793CCB593 /* RadarMapView.xib in Sources */,
+				090BB03601632DAA902545277599D6BC /* RadarMapViewSupport.swift in Sources */,
+				76937A37C61E39E72B38EDB96BFEB89E /* SegmentedIndicatorRing.swift in Sources */,
+				C93263AD3A1F552E8411D609DEBAC2E4 /* TouchView.swift in Sources */,
+				72553B1A511ED8EAD77B7A2692538DAC /* UIView+utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26773FA70A9C50D1C5C5A195D17AF2E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = ED3EDF444F82EBD03CC71AAAA9AA530E /* PBXContainerItemProxy */;
+		};
+		4A9D314770707A0C16DF1FDD3AD15C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HDAugmentedReality;
+			target = 3FB7B74DBC0D96D7F97242370637B8DB /* HDAugmentedReality */;
+			targetProxy = C3B789482B215FF9DEDE17273EDD870C /* PBXContainerItemProxy */;
+		};
+		4EBDFA398F6F5CD3923580E788C260CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCKit;
+			target = 85D3CEE82A742DD14D3CABC7C26B2BDF /* DCKit */;
+			targetProxy = C1BCA3151326A1293E5E6374CFE650C3 /* PBXContainerItemProxy */;
+		};
+		5306E6BF4E9AF3A49ABE383926ACF392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 325D49A6EF6EDEAE171AB480D7D64B2A /* PBXContainerItemProxy */;
+		};
+		8ECA8CBF442E7091EDD74A5C43354D89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BearBurp";
+			target = 8F6852FFF9D4ED5A2916386B839D90AA /* Pods-BearBurp */;
+			targetProxy = 376AA7E2031AE8202F818BB27E2B20EF /* PBXContainerItemProxy */;
+		};
+		B6F9BF29559E5DFD2E1A7C36B0928463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HDAugmentedReality;
+			target = 3FB7B74DBC0D96D7F97242370637B8DB /* HDAugmentedReality */;
+			targetProxy = BB7B89B37F118AE733A6A8DBB645945D /* PBXContainerItemProxy */;
+		};
+		D731DA1841992B19A32EDB587D80DACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCKit;
+			target = 85D3CEE82A742DD14D3CABC7C26B2BDF /* DCKit */;
+			targetProxy = D6C52C556A79DD3354D31FEA66EAA497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0657E6247C7E8744275AACEBAB511440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672CAEAD657DF70178B707C896FD00AE /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36FBAA3046578A5D1083D93FD1060454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26AB4ABDAC25FBE034FCB51888A591B6 /* Pods-BearBurpTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BearBurpTests/Pods-BearBurpTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BearBurpTests/Pods-BearBurpTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71C135DEFAE51EB1ED0E05A75CA54094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9248672818A84ECB01124AC64CC82F8 /* Pods-BearBurpTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BearBurpTests/Pods-BearBurpTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BearBurpTests/Pods-BearBurpTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		779DF32EDDD52C5B41F7B3388C39C6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4135B4B65E21406E0B2ED30AFD43667 /* Pods-BearBurp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BearBurp/Pods-BearBurp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BearBurp/Pods-BearBurp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81699A9B9B7B712211490371319BD36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F794C5EFF05B83301B799103AF0E804E /* Pods-BearBurp-BearBurpUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BearBurp-BearBurpUITests/Pods-BearBurp-BearBurpUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BearBurp-BearBurpUITests/Pods-BearBurp-BearBurpUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB7FD11E02B49AA038964C17FE23903C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E70A8D449A3FC236D7641143DFB465 /* Pods-BearBurp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BearBurp/Pods-BearBurp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BearBurp/Pods-BearBurp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBB6ABADEB04CD24C4257D8C0046E25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2570E14028E5FF17034E6B3263C02EE /* DCKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DCKit/DCKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCKit/DCKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DCKit/DCKit.modulemap";
+				PRODUCT_MODULE_NAME = DCKit;
+				PRODUCT_NAME = DCKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC7F8BCF16555AA34622691DA12CB5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B28268486A477BC211946FB6853C0B /* HDAugmentedReality.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDAugmentedReality/HDAugmentedReality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality.modulemap";
+				PRODUCT_MODULE_NAME = HDAugmentedReality;
+				PRODUCT_NAME = HDAugmentedReality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E091588F9ECD454C5374D1F34B511836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5987F40A383B0A2A693D62AC29DDE65 /* Pods-BearBurp-BearBurpUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BearBurp-BearBurpUITests/Pods-BearBurp-BearBurpUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BearBurp-BearBurpUITests/Pods-BearBurp-BearBurpUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E61F00B4A7BB0CA34CB34175F55C3077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1006DEA5338B21AEA1C853B3F0451A60 /* HDAugmentedReality.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDAugmentedReality/HDAugmentedReality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality.modulemap";
+				PRODUCT_MODULE_NAME = HDAugmentedReality;
+				PRODUCT_NAME = HDAugmentedReality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB545F538E4E390B2E8D64A249D0DDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34C70E09A077E958D9ABA4718B99CED /* DCKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DCKit/DCKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCKit/DCKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DCKit/DCKit.modulemap";
+				PRODUCT_MODULE_NAME = DCKit;
+				PRODUCT_NAME = DCKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC690621027EA58B5D021A1004DD63B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F742DE229F82A556039BA1CDD6D1E61 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0657E6247C7E8744275AACEBAB511440 /* Debug */,
+				EC690621027EA58B5D021A1004DD63B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FE8B664662A1292F844FEB62DDC486 /* Build configuration list for PBXNativeTarget "Pods-BearBurpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FBAA3046578A5D1083D93FD1060454 /* Debug */,
+				71C135DEFAE51EB1ED0E05A75CA54094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD3C23294EEABD46C9E87BBF136F209 /* Build configuration list for PBXNativeTarget "Pods-BearBurp-BearBurpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E091588F9ECD454C5374D1F34B511836 /* Debug */,
+				81699A9B9B7B712211490371319BD36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6676488DB67D37B8228C4EDD12A1B21 /* Build configuration list for PBXNativeTarget "DCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB6ABADEB04CD24C4257D8C0046E25A /* Debug */,
+				EB545F538E4E390B2E8D64A249D0DDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4744937D6FA8C254B2D2739DCA2DBE /* Build configuration list for PBXNativeTarget "HDAugmentedReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7F8BCF16555AA34622691DA12CB5CE /* Debug */,
+				E61F00B4A7BB0CA34CB34175F55C3077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F1E61AC3042C4C5AE41366515A14AD /* Build configuration list for PBXNativeTarget "Pods-BearBurp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7FD11E02B49AA038964C17FE23903C /* Debug */,
+				779DF32EDDD52C5B41F7B3388C39C6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

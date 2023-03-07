@@ -1,0 +1,28 @@
+PODS:
+  - DCKit (1.0.13)
+  - GoogleMaps (7.2.0):
+    - GoogleMaps/Maps (= 7.2.0)
+  - GoogleMaps/Base (7.2.0)
+  - GoogleMaps/Maps (7.2.0):
+    - GoogleMaps/Base
+  - HDAugmentedReality (3.0.0)
+
+DEPENDENCIES:
+  - DCKit
+  - GoogleMaps (= 7.2.0)
+  - HDAugmentedReality (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - DCKit
+    - GoogleMaps
+    - HDAugmentedReality
+
+SPEC CHECKSUMS:
+  DCKit: ca310752c3a4d442e772de66ce4e4168ea906d62
+  GoogleMaps: 65ce5426e2398bb81433c8076f2ab6419c2c5537
+  HDAugmentedReality: ff518e9c08704261b4226ffa820464aa5a9b1626
+
+PODFILE CHECKSUM: eaf0c3beeb71ab5820fa1ca1c769a1c3602dcf67
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-BearBurp-BearBurpUITests/Pods-BearBurp-BearBurpUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DCKit/DCKit.framework
+${BUILT_PRODUCTS_DIR}/HDAugmentedReality/HDAugmentedReality.framework

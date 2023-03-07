@@ -1,0 +1,6 @@
+framework module Pods_BearBurp {
+  umbrella header "Pods-BearBurp-umbrella.h"
+
+  export *
+  module * { export * }
+}
