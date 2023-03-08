@@ -9,5 +9,6 @@
 - Click on recommendation navigates to a new detail page and back action preserve the path history
 - Spinner used to indicate network status
 - User can manage favorite by clicking button, 3D touch and detail page shows favorite status
+- App adhere to the MVC design pattern
 
 **Screenshot:**
