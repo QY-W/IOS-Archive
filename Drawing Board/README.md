@@ -10,3 +10,5 @@
 - Code follows thoughtful OOP design and adheres to Swift guidelines.
 
 **Screenshot:**
+<img width="390" alt="L31" src="https://user-images.githubusercontent.com/71271157/223589062-48242fa9-68fd-48dd-935f-252176373595.png">
+![L32](https://user-images.githubusercontent.com/71271157/223589074-fe344176-952f-47fe-a3e6-df5a24e49a52.png)
